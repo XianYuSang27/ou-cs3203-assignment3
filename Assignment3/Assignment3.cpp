@@ -32,6 +32,8 @@ int main()
 
     cout << "Sum of the integers is: " << sumArray(arr) << endl;
     cout << "Product of the integers is: " << mulArray(arr) << endl;
+
+    cout << "part 10" << endl;
 }
 
 
