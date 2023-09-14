@@ -1,6 +1,6 @@
 ﻿
 #include <iostream>
-#include <vector>
+#include <algorithm>
 #include <numeric>
 #include <array>
 using namespace std;
@@ -23,6 +23,10 @@ int mulArray(int arr[]) {
     return temp;
 }
 
+void rev(int arr[]) {
+    reverse(arr, arr + sizeof(arr));
+}
+
 int main()
 {
     int arr[4];
@@ -32,6 +36,13 @@ int main()
 
     cout << "Sum of the integers is: " << sumArray(arr) << endl;
     cout << "Product of the integers is: " << mulArray(arr) << endl;
+    rev(arr);
+    cout << "Reversed array: ";
+        for (int i = 0; i < 4; ++i) {
+            cout << arr[i] << " ";
+    }
+        cout << endl;
+
 }
 
 
