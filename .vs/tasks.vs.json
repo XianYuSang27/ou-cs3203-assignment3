@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "任务-ou-cs3203-assignment3",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
