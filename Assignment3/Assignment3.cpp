@@ -25,10 +25,13 @@ int mulArray(int arr[]) {
 
 int main()
 {
-    int arr[] = { 5, 5, 5, 5};
- 
-    cout << sumArray(arr) << endl;
-    cout << mulArray(arr) << endl;
+    int arr[4];
+    cout << "Please enter 4 integers" << endl;
+    for (int i = 0; i < 4; ++i)
+        cin >> arr[i];
+
+    cout << "Sum of the integers is: " << sumArray(arr) << endl;
+    cout << "Product of the integers is: " << mulArray(arr) << endl;
 }
 
 
